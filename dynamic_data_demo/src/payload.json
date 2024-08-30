@@ -1,0 +1,18 @@
+{
+    "hypervisor_info": {
+        "type": "vmware",
+        "name": "esx_server_7",
+        "ip": "1.1.1.1",
+        "username": "esx_username",
+        "password": "esx_password"
+    },
+    "vm_info": [
+        {
+            "name": "vm_to_backup",
+            "ip": "2.2.2.2",
+            "username": "vm_username",
+            "password": "vm_password",
+            "datastore": "vm_storage_on esx"
+        }
+    ]
+}

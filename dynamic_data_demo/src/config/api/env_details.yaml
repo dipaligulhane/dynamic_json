@@ -1,0 +1,10 @@
+client_details:
+  # VMware-Windows: This section has details for the Windows client VM deployed on ESX.
+  vmware_windows:
+    vmware_server_ip: "1.1.1.1"
+    vmware_username: "esx_user"
+    vmware_password: "esx_pwd"
+    win_vm_name: "my_windows_test_vm"
+    win_vm_ip_address: "2.2.2.2"
+    win_vm_username: "vm_user"  # username of the VM
+    win_vm_password: "vm_passwd"

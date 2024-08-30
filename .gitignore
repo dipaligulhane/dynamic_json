@@ -1,0 +1,19 @@
+.git
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# intermittent files
+environment.yaml
+runtime_test_data.toml
+assets/
+report.html
+
+dynamic_data_demo/.idea/*
+*.pyc
+__pycache__/
