@@ -1,0 +1,17 @@
+{
+    "type": "backup",
+    "compression": true,
+    "hypervisor_info": {
+        "type": "vmware",
+        "ip": "100.100.100.100",
+        "username": "esx_username_from_payload_file",
+        "password": "esx_password_from_payload_file"
+    },
+    "vm_info":
+        {
+            "name": "vm_to_backup_from_payload_file",
+            "ip": "200.200.200.200",
+            "username": "vm_username_from_payload_file",
+            "password": "vm_password_from_payload_file"
+        }
+}

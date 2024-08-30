@@ -1,0 +1,16 @@
+{
+    "type": "backup",
+    "compression": true,
+    "hypervisor_info": {
+        "backup_type": "vmware",
+        "ip": "{{ esx_server_ip }}",
+        "username": "{{ esx_username }}",
+        "password": "{{ esx_password }}"
+    },
+    "vm_info": {
+        "name": "{{ name_of_vm_to_backup }}",
+        "ip": "{{ vm_ip }}",
+        "username": "{{ vm_username }}",
+        "password": "{{ vm_password }}"
+    }
+}
